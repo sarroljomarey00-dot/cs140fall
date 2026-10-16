@@ -95,7 +95,55 @@ body {
 }
 
 .main-nav a.active{
-    color: black;
     background-color: rgb(255, 186, 186);
+    color: black;
     font-weight: bold;
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 1200px;                      
+    margin: 40px auto;                       
+    padding: 30px;                             
+    border-radius: 8px;                          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.image-center {
+    display: flex;
+    flex-direction: column;   /* Changes direction from side-by-side to vertical stack */
+    align-items: center;      /* Centers the images horizontally within the white card */
+    gap: 25px;                /* Adds clear vertical spacing between the two pictures */
+    margin-top: 20px;
+}
+
+/* Adjust image widths so they scale beautifully when stacked */
+.image-center img {
+    width: 100%;              /* Expands images to use the full width of the container */
+    max-width: 800px;         /* Prevents the images from becoming too large on wide monitors */
+    height: auto;             /* Keeps the original aspect ratio aspect intact */
+    border-radius: 6px;       /* Adds subtle rounded corners to match the outer layout container */
+}
+
+.page-content{
+    text-align: center;
+    text-align-last: center;     
+    max-width: 850px;            
+    line-height: 1.7;     
+    font-weight: bold;       
+    font-size: 1.05rem;
+    margin: 35px auto;          
+    padding: 0 15px;  
+}
+
+.page-footer{
+    background-color: #d1193e; 
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;          
+    width: 100%;
+    box-sizing: border-box;
 }
