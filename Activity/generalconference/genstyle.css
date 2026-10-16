@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Shadow&display=swap');
+
+h1 {
+    font-family:"Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family:"Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+     justify-content: center;
+     font-optical-sizing: auto;
+     font: weight 0;
+     font-style:normal;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.centered{
+    display: block;       
+      margin-left: auto;    
+      margin-right: auto; 
+      margin-top: 20px;     
+      margin-bottom: 20px;
+}
+
+p .center-font{
+    font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 200px;
+}
+
+.video-size{
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+

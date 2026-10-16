@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&family=Outfit:wght@100..900&display=swap');
+
+ h1{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(13, 157, 157);
+ }
+
+ a:hover {
+    color: rgb(231, 250, 28);
+ }
+
+ body{
+   background-color: #FFF3D6;
+ }
+
+ h2{
+     font-family: "Caveat Brush", cursive;
+     font-size: 20pt;
+     color:#008C95;
+ }
+
+ .overview-color{
+   color: #008C95;
+   font-size: 13pt;
+ }
+
+ .important {
+    font-family: "Caveat Brush", cursive;
+    font-size: 16pt;
+    color:#008C95;
+ }
+
+ .font-color{
+   color:#008C95;
+   font-size: 13pt;
+   
+ }
+
+ .highlight-color{
+   color: rgb(255, 107, 16);
+ }
+
+ .less-important {
+    font-family: "Caveat Brush", cursive;
+    font-size: 14pt;
+    color:#008C95;
+ }
+
+ .less-color{
+   color:#008C95;
+   font-size: 12pt;
+ }
+
+ .not-important {
+    font-family: "Caveat Brush", cursive;
+    font-size: 14pt;
+    color:#008C95;
+ }
+
+ .lesser-color{
+   color: #008C95;
+   font-size: 11pt;
+ }
+
+ .lesser-highlight{
+   color:#4A6B70 ;
+ }
+
+ .emphasized{
+   color: rgb(255, 107, 16);
+ } 
+
+ .de-emphasized{
+   color:#4A6B70;
+ }
+
+ .centered{
+   display:flex;
+   justify-content: center;
+ }

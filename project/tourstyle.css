@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: max-content;
+    min-width: 100vw;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-page{
+    background-image: url(/project/images/flag.png);
+    background-repeat: repeat;
+}
+
+.cac-page{
+    background-image: url(/project/images/Campus.png);
+    background-size: cover; 
+}
+
+.banyan-page{
+    background-image: url(/project/images/Campus.png);
+    background-size: cover;
+}
+
+.science-page{
+    background-image: url(/project/images/Campus.png);
+    background-size: cover;
+}
+
+.hgb-page{
+    background-image: url(/project/images/Campus.png);
+    background-size: cover;
+}
+
+.stake-page{
+    background-image: url(/project/images/Campus.png);
+    background-size: cover;
+}
+
+.site-header {
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px 15px 20px;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    width: auto;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    width: auto;
+    overflow-x: visible;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: max-content;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 11px 10px;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.main-nav a:hover {
+    color: black;
+    background-color: rgb(255, 186, 186);
+}
+
+.main-nav a.active{
+    color: black;
+    background-color: rgb(255, 186, 186);
+    font-weight: bold;
+}
