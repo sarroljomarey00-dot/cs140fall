@@ -141,9 +141,34 @@ body {
     background-color: #d1193e; 
     color: white;
     padding: 25px 20px;
-    text-align: center;
     font-weight: bold;
     margin-top: 50px;          
     width: 100%;
     box-sizing: border-box;
+}
+
+.text {
+    color: rgb(28, 28, 28);
+    text-decoration:none;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 15px 0;
+    max-width: 100%;
+}
+
+.caf-page {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.photo-credit {
+    font-size: 0.8rem;
+    color: #757575;      
+    text-align: right;
+    margin-top: 6px;
+    font-style: italic;
 }
