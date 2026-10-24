@@ -5,9 +5,21 @@
     margin: 0 auto;
 }
 
-header{
+.header-page {
     font-family: "Playfair", serif;
-    font-weight: bolder;   
+    background: url(/cs140fall/project/inspirationalproject/images/temple.png);
+    background-size: cover;
+    background-origin: padding-box;
+    background-position: center;
+    background-clip: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 10px;
+
 }
 
 .bg-page{
@@ -21,10 +33,10 @@ header{
     margin: 40px auto;
     padding: 30px;                             
     border-radius: 8px;                          
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 4px 15px black;
     text-align: center;
 }
-p{
+.main-content p{
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -32,11 +44,55 @@ p{
     font-variation-settings: "wdth" 100;
 }
 
+h1 {
+    color: white;
+    text-shadow: 4px 2px 1px black;
+    font-size: 50px;
+    margin: 8px 0 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    width: max-content;
+}
+
 .main-nav a{
     text-decoration: none;
-    color: blueviolet;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px 0;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    text-shadow: 2px 2px 10px black;
+    justify-content: space-evenly;
 }
+
 .main-nav a:hover{
+    background-color: rgba(120, 175, 230, 0.423);
     text-decoration: none;
-    color: red;
+    color: rgb(229, 230, 235);
+    font-weight: bolder;
+}
+
+.page-footer {
+    font-family: "Inter", sans-serif;
+    background: url(/cs140fall/project/inspirationalproject/images/temple2.png); 
+    background-size: cover;
+    background-origin: padding-box;
+    background-position: center;
+    background-clip: border-box;
+    color:black;
+    text-shadow: 2px 1px 10px white;
+    padding: 5px 5px;
+    font-weight: bold;      
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
