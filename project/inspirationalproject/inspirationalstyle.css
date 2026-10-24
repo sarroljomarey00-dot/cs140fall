@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+.wrapper{
+    width: 860px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: "Playfair", serif;
+    font-weight: bolder;   
+}
+
+.bg-page{
+    background: url(/cs140fall/project/inspirationalproject/images/arialview.png);
+    background-size: cover
+}
+
+.main-content{
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 1200px;                      
+    margin: 40px auto;
+    padding: 30px;                             
+    border-radius: 8px;                          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+p{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.main-nav a:hover{
+    text-decoration: none;
+    color: red;
+}
