@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff8ed;
+    color: black;
+    padding: 30px;
+    margin: 0;
+}
+
+h1,
+p{
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 15px;
+}
+
+.menu div{
+    background-color: pink;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.special{
+    grid-column: span 3;
+    background-color: powderblue;
+    font-weight: bold;
+}
