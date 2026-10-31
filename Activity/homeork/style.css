@@ -212,8 +212,6 @@ body {
      WRAP onto a new line when they run out of space.
      Hint: you need TWO properties here — one to activate
      flex, and one to allow wrapping. */
- 
-
   display: flex;      
   flex-wrap: wrap;
   gap: 0.5rem;
