@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background: url(/cs140fall/project/5favthings/shoesphoto/background.png);
+    border: solid rgb(86, 86, 225);
+}
+
+.web-header h1{
+    font-family: 'Bebas Neue', sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 5px white;
+}
+
+.contain-row{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 35%;
+    max-width: 300px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.sidebar p{
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0; 
+}
+
+.whole-nav{
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    padding: 15px;
+}
+
+a{
+    background-color: rgb(2, 28, 88);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: wheat;
+}
+
+.whole-nav a:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.whole-nav a:active{
+    background-color: wheat;
+    color: black;
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.class-content{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shoe-card{
+    background-color: whitesmoke;
+    border: 3px solid rgb(133, 133, 241);
+    border-radius: 10px;
+    width: calc(33% - 10px);
+    min-width: 250px;
+    margin:0;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 6px 3px white;
+}
+
+.shoe-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.shoe-card figcaption{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.grid-links{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    list-style-type: none;
+    column-gap: 10px;
+    row-gap: 2pc;
+}
+
+footer{
+   width: 100%;                 
+    background-color: rgb(189, 41, 41); 
+    border-top: 3px solid rgb(86, 86, 225);
+    padding: 10px 10px;          
+    margin-top: 40px;            
+    text-align: left;
+    box-sizing: border-box;
+}
