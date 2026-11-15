@@ -71,9 +71,14 @@ aside{
 }
 
 caption{
-    background-color: black;
-    color:skyblue;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(17, 0, 255);
+    color:white;
     padding: 10px;
+    border: 2px solid gold;
+    margin: 5px 1px;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 tbody tr:nth-child(even){
@@ -83,9 +88,15 @@ tbody tr:nth-child(even){
 @media (max-width: 600px) {
     nav a{
         display: block;
+        background-color: gold;
+        color: black;
+        text-align: center;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    a:hover{
         background-color: rgb(55, 55, 153);
         color: white;
-        text-align: center;
         border: 1px solid gold;
     }
     .container{
