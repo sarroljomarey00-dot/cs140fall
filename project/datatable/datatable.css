@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 header{
-    background-color: rgba(0, 0, 255, 0.349);
+    background: url(/cs140fall/project/datatable/images/poro.png);
+    background-size: cover;
     border: 2px solid gold;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -41,6 +46,8 @@ table {
 body{
     background-color: rgba(8, 8, 8, 0.937);
     color: white;
+    flex-direction: column;
+    display: flex;
 }
 
 td, th{
@@ -48,6 +55,7 @@ td, th{
     padding: 15px;
     text-align: center;
     vertical-align: middle;
+    font-size: 20px;
 }
 
 th{
@@ -79,6 +87,19 @@ caption{
     margin: 5px 1px;
     font-weight: bold;
     font-size: 17px;
+}
+
+.web-footer{
+    background:url(/cs140fall/project/datatable/images/Poros.png);
+    color: black;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 3px;
+    text-shadow: 2px 2px 5px white;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 tbody tr:nth-child(even){
