@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="formstyle.css">
 </head>
@@ -10,30 +11,36 @@
     <form>  
         <fieldset class="spacing">
             <legend class="color-name">Contact Information</legend>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname"><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="emailadd"><br>
-            
-
-            <legend>Gender</legend>
-            <input type="radio" id="male" name="genderm">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="genderf">
-            <label for="female">Female</label><br>
-
-            <label for="fav">Favorite Class</label><br>
-            <select id="fav" name="favclass">
-                <option disabled hidden selected>Choose one</option> 
-                <option value="Cs101">CS101</option> 
-                <option value="Cs140">Cs140</option> 
-                <option value="EIL320">EIL320</option> 
-            </select><br>
-            <br>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>   
+            <div class="form-row">    
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="emailadd">
+            </div>
+            <div class="check-row">
+                <div class="spacer">Gender:</div>
+                <label> <input type="radio" id="male" name="gender">Male</label>
+                <label><input type="radio" id="female" name="gender">Female</label>
+            </div>
+            <div class="form-row">
+                <label for="fav">Favorite Class</label>
+                <select id="fav" name="favclass">
+                    <option disabled hidden selected>Choose one</option> 
+                    <option value="Cs101">CS101</option> 
+                    <option value="Cs140">Cs140</option> 
+                    <option value="EIL320">EIL320</option> 
+                </select>
+            </div>
+            <div class="form-row">
+            <div class="spacer"></div>
             <input type="submit" id="submit" value="Finish?">
+            </div>
         </fieldset>
     </form>
 </body>

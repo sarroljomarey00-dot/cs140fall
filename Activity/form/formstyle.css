@@ -10,8 +10,8 @@ fieldset{
 }
 
 input{
-    padding: 4px;
-    border: 3px solid blue ;
+    padding:4px;
+    border: 2px solid blue ;
 }
 
 
@@ -24,4 +24,35 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: blue;
     color: white;
+}
+
+.form-row, .check-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.spacer{
+    width: 150px;
+    text-align: right;
+}
+
+@media (max-width: 600px) { 
+
+    .form-row, .check-row{
+        flex-direction: column;
+    }
+
+    .form-row label{
+        text-align:left;
+    }
+
+    .spacer{
+        text-align: left;
+    }
 }
